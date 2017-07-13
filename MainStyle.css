@@ -1,0 +1,11 @@
+body {
+  background-color: #F0F0F0;
+}
+button{
+  border-style: double;
+  border-color: #101010;
+}
+img{
+  margin: auto;
+  display: block;
+}
