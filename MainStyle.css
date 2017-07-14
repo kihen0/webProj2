@@ -9,3 +9,12 @@ img{
   margin: auto;
   display: block;
 }
+/*tr{
+  vertical-align:bottom;
+}*/
+#numval{
+  margin-bottom: 22;
+}
+#misShow{  
+  display: none;
+}

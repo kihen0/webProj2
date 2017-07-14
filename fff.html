@@ -9,11 +9,12 @@
     <button type="button"id="elem">script</button>
     <script src="scr.js" type="text/javascript"></script>
     <img  src="content/images/Raduga_1.png" id="hideble"></img>
-
-      <p> number of options:&nbsp;
-      <input type="number" name="vvv" id="numval" onmouseover="changeToWhite()" required></input>
-      <button type="submit" onclick="makeOpts()" >select </button>
-
+    <table><tr><td>
+      <p> number of options:&nbsp;</td><td><table><tr style="height: 18px;"><td><span id="misShow">mistake</span></td></tr>
+      <tr><td><input type="number" name="vvv" id="numval" onmouseover="changeToWhite()" required></input></td></tr></table></td>
+      <td><button type="submit" onclick="makeOpts()" >select </button></td>
+    </tr></table>
+    <span id="selPaste"></span>
 
 
   </body>
