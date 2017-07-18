@@ -15,13 +15,18 @@ function makeOpts() {
         document.getElementById("selPaste").innerHTML=Request.responseText;
       }
     };
-    Request.open("GET","ffd.php?q="+n,true)
+    document.getElementById("selPaste").innerHTML="wait!";
+    Request.open("GET","ffd.php?q="+n,true);
     Request.send();
+
   }
 }
 function changeToWhite() {
   var i= document.getElementById('numval');
+  if(i.style.backgroundColor!="rgb(255, 255, 255)")
+  {
   i.style.backgroundColor="ffffff";
   document.getElementById('misShow').style.display="none";
   document.getElementById('numval').value ="";
+}
 }

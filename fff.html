@@ -5,17 +5,48 @@
     <script type="text/javascript"  src="AjScr.js"></script>
   </head>
   <body>
-    <h>HELLO</h>
-    <button type="button"id="elem">script</button>
-    <script src="scr.js" type="text/javascript"></script>
-    <img  src="content/images/Raduga_1.png" id="hideble"></img>
-    <table><tr><td>
-      <p> number of options:&nbsp;</td><td><table><tr style="height: 18px;"><td><span id="misShow">mistake</span></td></tr>
-      <tr><td><input type="number" name="vvv" id="numval" onmouseover="changeToWhite()" required></input></td></tr></table></td>
-      <td><button type="submit" onclick="makeOpts()" >select </button></td>
-    </tr></table>
-    <span id="selPaste"></span>
-
-
+    <div class="title">
+      <h1>HELLO</h1>&nbsp;
+      <button class="mid" type="button"id="elem">hide picture</button>
+      <script src="scr.js" type="text/javascript"></script>
+    </div>
+    <hr>
+    <div class="lay">
+      <div class="mdiv">
+        <img  src="content/images/Raduga_1.png" id="hideble"></img>
+      </div>
+      <div class="mdiv">
+        <table>
+          <tr>
+            <td>
+              <p> number of options:&nbsp;</p>
+            </td>
+            <td>
+              <table>
+                <tr style="height: 18px;">
+                  <td>
+                    <span id="misShow">mistake</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="number" name="vvv" id="numval" onmouseover="changeToWhite()" required></input>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <button type="submit" onclick="makeOpts()" >select </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="mdiv">
+        <span id="selPaste"></span>
+      </div>
+      <div class="bottomDiv mdiv">
+        <p><a href="./loggin/loginScreen.html">log in!</a></p>      
+      </div>
+    </div>
   </body>
 </html>
